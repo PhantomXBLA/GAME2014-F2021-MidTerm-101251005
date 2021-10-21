@@ -121,6 +121,8 @@ MonoBehaviour:
   horizontalSpeed: 2
   horizontalBoundary: 2.1
   direction: 1
+  verticalSpeed: 2
+  verticalBoundary: 2.1
 --- !u!61 &5207501529346661145
 BoxCollider2D:
   m_ObjectHideFlags: 0

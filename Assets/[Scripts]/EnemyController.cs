@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+Full Name:        Tyler Miles
+Student ID:       101251005
+File:             EnemyController.cs
+Description:      This is where the enemy recieves its instructions to move and reset bounds once hitting the border.
+Revision history: Changed code to allow for horizontal movement rather than vertical movement.
+*/
+
 public class EnemyController : MonoBehaviour
 {
     public float horizontalSpeed;

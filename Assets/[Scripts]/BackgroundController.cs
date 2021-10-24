@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+Full Name:        Tyler Miles
+Student ID:       101251005
+File:             BackgroundController.cs
+Description:      This is the background controller script that moves the background, and if it reaches the boundary, reset.
+Revision history: Created a horizontalboundary variable and changed all the vertical boundary lines to account for the horizontal boundary instead.
+*/
+
 public class BackgroundController : MonoBehaviour
 {
     public float verticalSpeed;

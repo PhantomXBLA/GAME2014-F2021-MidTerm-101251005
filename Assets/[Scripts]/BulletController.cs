@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+Full Name:        Tyler Miles
+Student ID:       101251005
+File:             BulletController.cs
+Description:      This is where the bullet recieves its instructions to move and reset bounds once hitting the border.
+Revision history: Created a horizontalboundary variable and changed all the vertical boundary lines to account for the horizontal boundary instead. Also made the bullet travel horizontally rather than vertically.
+*/
+
 public class BulletController : MonoBehaviour, IApplyDamage
 {
     public float verticalSpeed;

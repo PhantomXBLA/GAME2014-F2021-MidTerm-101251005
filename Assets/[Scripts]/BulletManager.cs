@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+Full Name:        Tyler Miles
+Student ID:       101251005
+File:             BulletManager.cs
+Description:      This is the file that manages bullet creation + queueing if the # of active bullets is under a threshold.
+Revision history: N/A
+*/
+
 [System.Serializable]
 public class BulletManager : MonoBehaviour
 {

@@ -4,6 +4,14 @@ using System.ComponentModel;
 using UnityEditor;
 using UnityEngine;
 
+/*
+Full Name:        Tyler Miles
+Student ID:       101251005
+File:             PlayerController.cs
+Description:      This is the player controller script that determines how the player interacts with boundaries & general movement.
+Revision history: Created a verticalBoundary variable and changed all the horizontal boundary lines to account for the vertical boundary instead. Changed the world touch to account for the Y axis instead of X.
+*/
+
 public class PlayerController : MonoBehaviour
 {
     public BulletManager bulletManager;

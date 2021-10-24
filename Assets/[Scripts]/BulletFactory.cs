@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+Full Name:        Tyler Miles
+Student ID:       101251005
+File:             BulletFactory.cs
+Description:      This is where the bullet to fire is chosen randomly and via a temporary bullet placement.
+Revision history: N/A
+*/
+
 [System.Serializable]
 public class BulletFactory : MonoBehaviour
 {
